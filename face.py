@@ -4,8 +4,8 @@ import os
 
 
  def dataset():
-     images = []
-     labels = []
+     images  = []
+     labels  = []
      labels_dic = {}
      people  = [person for person in os.listdir("people/")]
      for i, person in enumerate(people):
